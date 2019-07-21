@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/codXml"
+        android:layout_width="30sp"
+        android:layout_height="35sp"
+        android:textSize="20sp"
+        android:text="00"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/nomeXml"
+        android:layout_width="130sp"
+        android:layout_height="35sp"
+        android:padding="5dp"
+        android:text="Nome"
+        android:textSize="20dp"
+        android:layout_marginLeft="10sp" />
+
+    <Button
+        android:id="@+id/btnAddXml"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Exibir Posição"
+        android:layout_marginLeft="30sp" />
+
+</LinearLayout>
